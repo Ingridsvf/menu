@@ -1,0 +1,216 @@
+.seccion {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(./images/fondo.jpg) no-repeat center center / cover;
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor-portada {
+    padding: 120px 50px 0;
+    h2{
+        font-weight: 300;
+        font-family: 'montserrat';
+    }
+}
+
+.imagen {
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    padding: none;
+    img{
+    width: 100%;
+    max-width: 700px;}
+    
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .texto {
+        padding-top: 10px;
+    }}
+
+
+
+
+    /* Special*/
+
+    .special {
+    background-color: #000;
+    padding: 2rem;
+    font-family: 'montserrat';
+    position: relative;
+    color: #fff;
+    .btn {
+            background-color: #ff9900;
+        }
+    h1 {
+        font-family: "cookie";
+        text-align: center;
+        font-size: 100px;
+    }
+    }
+
+    /*seccion parrillas */
+
+.parrillas::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 20px;
+  background-size: 20px 100%;
+  background-image: linear-gradient(135deg, #ff9900 25%, transparent 25%), linear-gradient(225deg, #ff9900 25%, transparent 25%);
+  background-position: 0 0;
+}
+
+.contenedor-lista {
+    max-width: 500px;
+    margin: 2rem auto;
+}
+    .parrillas {
+        background-color: #ff9900;
+        padding: 2rem;
+        font-family: 'montserrat';
+        position: relative;
+         h3{
+        color: #f0f0f0;}
+    }
+
+        h3{
+        border-bottom: 1.5px solid #f0f0f0;
+        text-align: center;
+       padding-bottom: 0.25rem;
+
+        }
+        dl {
+            list-style: none;
+        }
+        dt {
+    display: flex;
+    justify-content:space-between;
+    padding: 0.5rem 0 0;
+        }
+    dd {
+    padding: 0;
+    border-bottom: 1px dashed #f0f0f0;
+   font-weight: 400;
+   padding: 0.4rem 0;
+    }
+    
+        span:nth-child(2) {
+    font-weight: 800;
+    }
+    
+
+
+    .divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    color: #000;
+    font-size: 2rem;
+    }
+    .divider .line{
+    height: 1px;
+    width: 80px;
+    background-color: #000;
+    margin: 0 15px;
+    }
+
+
+    /* Sección criollos */
+
+    .criollos {
+        background-color: #000;
+        padding: 2rem;
+        font-family: 'montserrat';
+        position: relative;
+        color: #fff;
+        .btn {
+            background-color: #ff9900;
+        }
+        .divider {
+    color: #ff9900;
+
+    }
+    .divider .line{
+    background-color: #ff9900;
+    }
+    }
+
+.criollos::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 20px;
+  background-size: 20px 100%;
+  background-image: linear-gradient(135deg, #000 25%, transparent 25%), linear-gradient(225deg, #000 25%, transparent 25%);
+  background-position: 0 0;
+}
+
+
+/* Sección Bebidas */
+
+    .bebidas {
+        background-color: #fff;
+        padding: 2rem;
+        font-family: 'montserrat';
+        position: relative;
+        color: #000;
+        h3 {
+        color: #006633;
+        border-bottom: 1.5px solid #006633;
+        }
+        .btn {
+            background-color: #006633;
+            border: none;
+        }
+
+        dd {
+    border-bottom: 1px dashed #006633;
+    }
+        .divider {
+    color: #006633;
+
+    }
+    .divider .line{
+    background-color: #006633;
+    }
+    }
+
+.bebidas::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 20px;
+  background-size: 20px 100%;
+  background-image: linear-gradient(135deg, #fff 25%, transparent 25%), linear-gradient(225deg, #fff 25%, transparent 25%);
+  background-position: 0 0;
+}
+
+
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+}
+
