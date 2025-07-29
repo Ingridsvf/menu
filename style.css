@@ -48,10 +48,15 @@
     .btn {
             background-color: #ff9900;
         }
-    h1 {
+    h1{
         font-family: "cookie";
         text-align: center;
         font-size: 100px;
+    }
+    h6{
+        font-family: "cookie";
+        text-align: center;
+        font-size: 40px;
     }
     }
 
